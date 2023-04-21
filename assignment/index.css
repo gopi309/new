@@ -1,0 +1,46 @@
+body {
+  background-color: #e97885;
+  color: #2a2a63;
+}
+.work-exp {
+  flex-direction: column;
+}
+.margin-desktop {
+  margin: 20px 0;
+}
+.skills-svg svg {
+  margin: 0 10px;
+}
+
+@media (min-width: 576px) {
+  .work-exp {
+    flex-direction: row;
+  }
+  .border-right {
+    border-right: 1px solid black;
+  }
+  .margin-desktop {
+    margin: 40px 0;
+  }
+}
+.Address {
+  font-size: medium;
+  color: #213a66;
+}
+.in {
+  color: #e97885;
+  border-radius: 35px;
+  background-color: #2a2a63;
+  width: 70px;
+  height: 70px;
+}
+
+.icon {
+  color: #e97885;
+  height: 70px;
+  width: 40px;
+  margin-left: 15px;
+}
+.main-icon {
+  border-radius: 70px;
+}
